@@ -50,6 +50,13 @@
   height: 100vh;
 }
 
+.connect-wallet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   /* border: 1px solid #000; */
   background: #90d5ff;
