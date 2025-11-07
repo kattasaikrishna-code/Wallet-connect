@@ -16,6 +16,7 @@ export default function App() {
       {!isConnected ? (
         <button className="button" onClick={() => open({ view: "Connect" })}>
           <h1>Connect Wallet</h1>
+          <p>Please connect your wallet to access the app</p>
         </button>
       ) : (
         <div>
