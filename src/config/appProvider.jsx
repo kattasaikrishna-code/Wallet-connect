@@ -14,7 +14,7 @@ const projectId = "ac5c4bb54e7ac9629b0d6dbce2a116d5";
 const metadata = {
   name: "AppKit",
   description: "AppKit Example",
-  url: window.location.origin, // origin must match your domain & subdomain
+  url: "https://walletconnectsample.vercel.app/", // origin must match your domain & subdomain
   icons: ["https://avatars.githubusercontent.com/u/179229932"],
 };
 
