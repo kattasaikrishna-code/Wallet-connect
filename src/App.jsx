@@ -14,10 +14,13 @@ export default function App() {
   return (
     <div className="container">
       {!isConnected ? (
-        <button className="button" onClick={() => open({ view: "Connect" })}>
-          <h1>Connect Wallet</h1>
-          <p>Please connect your wallet to access the app</p>
-        </button>
+        <>
+          {" "}
+          <button className="button" onClick={() => open({ view: "Connect" })}>
+            <h1>Connect Wallet</h1>
+          </button>
+          <h1>Please connect your wallet to continue</h1>
+        </>
       ) : (
         <div>
           <h1 className="connected-text">Connected Wallet Address</h1>
